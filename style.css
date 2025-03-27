@@ -243,7 +243,8 @@ span {
 }
 
 .project-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -517,7 +518,7 @@ span {
             min-height: 55vh;
             padding: 10rem 6% 5rem;
         }
-        .certification .wrapper{
+        .certification .wrapper, .project-container{
             grid-template-columns: repeat(1,1fr);
         }
         .footer{
