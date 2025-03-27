@@ -27,7 +27,7 @@ body {
 }
 
 section {
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 5rem 6% 2rem;
 }
 
@@ -514,6 +514,7 @@ span {
             padding: 2rem 3%;
         }
         section{
+            min-height: 55vh;
             padding: 10rem 6% 5rem;
         }
         .certification .wrapper{
