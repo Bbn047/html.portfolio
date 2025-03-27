@@ -28,7 +28,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 5rem 6% 2rem;
+    padding: 4rem 6% 2rem;
 }
 
 /*header section */
@@ -411,14 +411,9 @@ span {
 
 .contact {
     background: var(--snd_bg-color);
+    padding-bottom: 2rem;
 }
 
-.contact-container {
-    display: flex;
-    background-size: cover;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .contact .heading {
     margin-bottom: 5rem;
